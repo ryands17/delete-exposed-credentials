@@ -7,14 +7,16 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "test": "dotenv -- jest",
+    "cdk": "dotenv -- cdk"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.117.0",
     "@types/jest": "^26.0.10",
     "@types/node": "16.4.13",
     "aws-cdk": "1.117.0",
+    "dotenv-cli": "4.0.0",
+    "esbuild": "0.12.19",
     "husky": "7.0.1",
     "jest": "^26.4.2",
     "lint-staged": "11.1.2",
@@ -24,6 +26,13 @@
     "typescript": "~4.3.5"
   },
   "dependencies": {
+    "@aws-cdk/aws-events": "1.117.0",
+    "@aws-cdk/aws-iam": "1.117.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.117.0",
+    "@aws-cdk/aws-logs": "1.117.0",
+    "@aws-cdk/aws-sns": "1.117.0",
+    "@aws-cdk/aws-stepfunctions": "1.117.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.117.0",
     "@aws-cdk/core": "1.117.0",
     "source-map-support": "^0.5.16"
   },
