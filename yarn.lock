@@ -183,6 +183,19 @@
     "@aws-cdk/core" "1.117.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-codepipeline@1.117.0":
+  version "1.117.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codepipeline/-/aws-codepipeline-1.117.0.tgz#57f0cc31b05cdb7e2a601d929957530865f42020"
+  integrity sha512-wqAK8tPgTILCDcH3jOKVF1Mq+pTF39H8/msX54pVGObpDNYN6OWgO6szCSB+OZrZMIQ75WlXfHEPOYHoEcSPlQ==
+  dependencies:
+    "@aws-cdk/aws-codestarnotifications" "1.117.0"
+    "@aws-cdk/aws-events" "1.117.0"
+    "@aws-cdk/aws-iam" "1.117.0"
+    "@aws-cdk/aws-kms" "1.117.0"
+    "@aws-cdk/aws-s3" "1.117.0"
+    "@aws-cdk/core" "1.117.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-codestarnotifications@1.117.0":
   version "1.117.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codestarnotifications/-/aws-codestarnotifications-1.117.0.tgz#1f375819f47d512472f3d0d1bf94df3fb6db3e1a"
@@ -350,6 +363,31 @@
     "@aws-cdk/region-info" "1.117.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-events-targets@1.117.0":
+  version "1.117.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-events-targets/-/aws-events-targets-1.117.0.tgz#80ecbdac1f38d05cebc710c77389c6c37f5eb94c"
+  integrity sha512-e2Gmn1wF6Chc1Yx0Gdsqz8luoIq7ieDYS+mvKboWa7FktjIfV9NQMerN2HGQhEQfU+KGnKBq+YxJB9XvKCEzUg==
+  dependencies:
+    "@aws-cdk/aws-apigateway" "1.117.0"
+    "@aws-cdk/aws-codebuild" "1.117.0"
+    "@aws-cdk/aws-codepipeline" "1.117.0"
+    "@aws-cdk/aws-ec2" "1.117.0"
+    "@aws-cdk/aws-ecs" "1.117.0"
+    "@aws-cdk/aws-events" "1.117.0"
+    "@aws-cdk/aws-iam" "1.117.0"
+    "@aws-cdk/aws-kinesis" "1.117.0"
+    "@aws-cdk/aws-kinesisfirehose" "1.117.0"
+    "@aws-cdk/aws-kms" "1.117.0"
+    "@aws-cdk/aws-lambda" "1.117.0"
+    "@aws-cdk/aws-logs" "1.117.0"
+    "@aws-cdk/aws-sns" "1.117.0"
+    "@aws-cdk/aws-sns-subscriptions" "1.117.0"
+    "@aws-cdk/aws-sqs" "1.117.0"
+    "@aws-cdk/aws-stepfunctions" "1.117.0"
+    "@aws-cdk/core" "1.117.0"
+    "@aws-cdk/custom-resources" "1.117.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-events@1.117.0":
   version "1.117.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-events/-/aws-events-1.117.0.tgz#824bebca2bb8edec416de27061ffb5fb83bc4ef8"
@@ -388,6 +426,23 @@
     "@aws-cdk/aws-kms" "1.117.0"
     "@aws-cdk/aws-logs" "1.117.0"
     "@aws-cdk/core" "1.117.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-kinesisfirehose@1.117.0":
+  version "1.117.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-kinesisfirehose/-/aws-kinesisfirehose-1.117.0.tgz#28ce595997a14079a5777b327c17c2fa08935e6e"
+  integrity sha512-68JUiEYxY46syYdzr3Bg8Y8PLaiSjPtODwjr81wk2v5Cg2MPKz1tmIRTuULySsChNbA6a3wBJEAqHeHrd9WPYw==
+  dependencies:
+    "@aws-cdk/aws-cloudwatch" "1.117.0"
+    "@aws-cdk/aws-ec2" "1.117.0"
+    "@aws-cdk/aws-iam" "1.117.0"
+    "@aws-cdk/aws-kinesis" "1.117.0"
+    "@aws-cdk/aws-kms" "1.117.0"
+    "@aws-cdk/aws-lambda" "1.117.0"
+    "@aws-cdk/aws-logs" "1.117.0"
+    "@aws-cdk/aws-s3" "1.117.0"
+    "@aws-cdk/core" "1.117.0"
+    "@aws-cdk/region-info" "1.117.0"
     constructs "^3.3.69"
 
 "@aws-cdk/aws-kms@1.117.0":
@@ -1586,7 +1641,7 @@ aws-cdk@1.117.0:
     yaml "1.10.2"
     yargs "^16.2.0"
 
-aws-sdk@^2.848.0:
+aws-sdk@2.963.0, aws-sdk@^2.848.0:
   version "2.963.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.963.0.tgz#9655743e69e9466c7aed5962a680c330a6cad212"
   integrity sha512-EY7EPap1c/1RxPx+Py56t9btJug3Z3PJkCfplqzNuU1QlFGs+rN8yYm9xIn8J6gbJ5D8F4Qab0GCtTmGstlHfQ==
