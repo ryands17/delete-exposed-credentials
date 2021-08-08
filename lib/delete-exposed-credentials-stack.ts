@@ -33,8 +33,9 @@ export class DeleteExposedCredentialsStack extends cdk.Stack {
       this,
       'deleteAccessKeyPair',
       {
-        lambdaFunction: deleteAccessKeyFn,
         comment: 'Deletes exposed IAM access keypairs and notifies security',
+        lambdaFunction: deleteAccessKeyFn,
+        resultPath: '$.deleteAccessKey',
       }
     )
 
@@ -52,7 +53,10 @@ export class DeleteExposedCredentialsStack extends cdk.Stack {
     const lookupCloudTrailEvents = new tasks.LambdaInvoke(
       this,
       'lookupCloudTrailEvents',
-      { lambdaFunction: lookupCloudTrailEventsFn }
+      {
+        lambdaFunction: lookupCloudTrailEventsFn,
+        resultPath: '$.cloudTrailEvent',
+      }
     )
 
     const notifyUserFn = lambda(this, 'notifyUserViaSNS')
