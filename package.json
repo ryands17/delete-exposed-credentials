@@ -22,7 +22,7 @@
     "esbuild": "0.19.11",
     "husky": "7.0.4",
     "jest": "^26.4.2",
-    "lint-staged": "11.1.2",
+    "lint-staged": "11.2.6",
     "prettier": "2.3.2",
     "ts-jest": "^26.2.0",
     "ts-node": "^10.1.0",
