@@ -11,12 +11,12 @@
     "cdk": "dotenv -- cdk"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.117.0",
-    "@aws-cdk/assertions": "1.117.0",
+    "@aws-cdk/assert": "1.203.0",
+    "@aws-cdk/assertions": "1.203.0",
     "@types/aws-lambda": "8.10.131",
     "@types/jest": "^26.0.10",
     "@types/node": "16.18.71",
-    "aws-cdk": "1.117.0",
+    "aws-cdk": "1.203.0",
     "aws-sdk": "2.963.0",
     "dotenv-cli": "4.0.0",
     "esbuild": "0.12.19",
@@ -29,15 +29,15 @@
     "typescript": "~4.3.5"
   },
   "dependencies": {
-    "@aws-cdk/aws-events": "1.117.0",
-    "@aws-cdk/aws-events-targets": "1.117.0",
-    "@aws-cdk/aws-iam": "1.117.0",
-    "@aws-cdk/aws-lambda-nodejs": "1.117.0",
-    "@aws-cdk/aws-logs": "1.117.0",
-    "@aws-cdk/aws-sns": "1.117.0",
-    "@aws-cdk/aws-stepfunctions": "1.117.0",
-    "@aws-cdk/aws-stepfunctions-tasks": "1.117.0",
-    "@aws-cdk/core": "1.117.0",
+    "@aws-cdk/aws-events": "1.203.0",
+    "@aws-cdk/aws-events-targets": "1.203.0",
+    "@aws-cdk/aws-iam": "1.203.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.203.0",
+    "@aws-cdk/aws-logs": "1.203.0",
+    "@aws-cdk/aws-sns": "1.203.0",
+    "@aws-cdk/aws-stepfunctions": "1.203.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.203.0",
+    "@aws-cdk/core": "1.203.0",
     "source-map-support": "^0.5.16"
   },
   "prettier": {
