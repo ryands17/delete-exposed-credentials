@@ -20,7 +20,7 @@
     "aws-sdk": "2.1601.0",
     "dotenv-cli": "7.4.1",
     "esbuild": "0.20.2",
-    "husky": "7.0.4",
+    "husky": "9.0.11",
     "jest": "^26.4.2",
     "lint-staged": "11.2.6",
     "prettier": "3.2.5",
