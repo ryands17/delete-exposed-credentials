@@ -11,12 +11,12 @@
     "cdk": "dotenv -- cdk"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.203.0",
+    "@aws-cdk/assert": "2.68.0",
     "@aws-cdk/assertions": "1.203.0",
     "@types/aws-lambda": "8.10.137",
     "@types/jest": "^29.0.0",
     "@types/node": "20.12.7",
-    "aws-cdk": "1.203.0",
+    "aws-cdk": "2.147.3",
     "aws-sdk": "2.1601.0",
     "dotenv-cli": "7.4.1",
     "esbuild": "0.20.2",
