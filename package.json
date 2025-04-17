@@ -13,9 +13,9 @@
   "devDependencies": {
     "@aws-cdk/assert": "1.203.0",
     "@aws-cdk/assertions": "1.203.0",
-    "@types/aws-lambda": "8.10.147",
+    "@types/aws-lambda": "8.10.149",
     "@types/jest": "^29.0.0",
-    "@types/node": "22.10.7",
+    "@types/node": "22.14.1",
     "aws-cdk": "1.203.0",
     "aws-sdk": "2.1692.0",
     "dotenv-cli": "8.0.0",
