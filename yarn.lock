@@ -1905,10 +1905,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/aws-lambda@8.10.156":
-  version "8.10.156"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.156.tgz#ea7cd65806d441fcf4afce1738fe786d4bdafb8d"
-  integrity sha512-LElQP+QliVWykC7OF8dNr04z++HJCMO2lF7k9HuKoSDARqhcjHq8MzbrRwujCSDeBHIlvaimbuY/tVZL36KXFQ==
+"@types/aws-lambda@8.10.159":
+  version "8.10.159"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.159.tgz#0ab559f4519e42732a393b28c21564da9763c5aa"
+  integrity sha512-SAP22WSGNN12OQ8PlCzGzRCZ7QDCwI85dQZbmpz7+mAk+L7j+wI7qnvmdKh+o7A5LaOp6QnOZ2NJphAZQTTHQg==
 
 "@types/babel__core@^7.20.5":
   version "7.20.5"
@@ -1982,10 +1982,10 @@
   dependencies:
     undici-types "~6.21.0"
 
-"@types/node@22.18.11":
-  version "22.18.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.11.tgz#aa8a8ccae8cc828512df642f0d82606b89450d71"
-  integrity sha512-Gd33J2XIrXurb+eT2ktze3rJAfAp9ZNjlBdh4SVgyrKEOADwCbdUDaK7QgJno8Ue4kcajscsKqu6n8OBG3hhCQ==
+"@types/node@22.19.7":
+  version "22.19.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.19.7.tgz#434094ee1731ae76c16083008590a5835a8c39c1"
+  integrity sha512-MciR4AKGHWl7xwxkBa6xUGxQJ4VBOmPTF7sL+iGzuahOFaO0jHCsuEfS80pan1ef4gWId1oWOweIhrDEYLuaOw==
   dependencies:
     undici-types "~6.21.0"
 
